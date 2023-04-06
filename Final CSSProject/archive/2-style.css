@@ -1,0 +1,89 @@
+/* set entire page background */
+html,body {
+    background-color: black;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+ /* set content window   */
+.page-container {
+display: flex;
+border: 2px solid red;
+background-color: white;
+align-items: center;
+flex-direction: column;
+height: 90vh;
+width: 90vh;
+}
+
+
+/* set header/footer size */
+.headfoot {
+display: flex;
+height: 5vh;
+width: 90vh;
+border: 2px solid orange;
+}
+
+/* set content sections size */
+.mainsection {
+display: flex;
+height: 30vh;
+width: 90vh;
+border: 2px solid blue;
+}
+
+
+/* header section */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: inherit;
+    width: inherit; /* 90vh*/
+}
+
+/* logo container */
+.header-logo {
+display: flex;
+/* padding: 10px; */
+width: 50%; /* 1/2 90vh*/
+height: 100%;
+border: 2px solid black;
+justify-content: center;
+align-items: center;
+
+}
+ 
+.header-links {
+display: flex;
+/* align-items: center;*/ 
+justify-content: space-around;
+
+/* padding: 10px; */
+width: 50%; /* 1/2 90vh*/
+border: 2px solid purple; 
+flex-direction: row;
+}
+
+.signup-section-left {
+
+}
+.signup-section-right {
+    
+}
+
+/* Header list link items */
+/* ul {
+display: flex;
+gap: 10px;
+padding-right: 10px;
+border: 2px solid red;
+list-style: none;
+} */
+
+

@@ -1,0 +1,253 @@
+/* entire page background */
+html {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* content section container */
+.content-container {
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* set size of header/footer containers*/
+.section-header, .section-footer {
+    display: flex;
+    height: 50px;
+    width: inherit;
+}
+
+/* set size of content container sections */
+.section-signup, .section-picture-caption, .section-quote, .section-call-to-action {
+    display: flex;
+    height: 200px;
+    width: inherit;
+}
+
+/* set background color of header/footer/section-signup */
+.section-header, .section-footer, .section-signup {
+    background-color: #1f2937;
+}
+
+/* set section-quote background color */
+.section-quote {
+    background-color: #e5e7eb;
+}
+
+/* to set header logo box */
+.header-logo {
+    width: 50%;
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* to set header links box */
+.header-links {
+font-size: 18px;
+color: #e5e7eb;
+width: 50%;
+display: flex;
+justify-content: space-around;
+}
+
+/* container for signup section */
+.section-signup {
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    justify-content: center;
+}
+
+/* set signup left container properties */
+.signup-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding 20px
+}
+
+
+/* set header text for signup left container */
+.signup-left, h1 {
+    color: #f9faf8;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/* set p text for signup left container */
+.signup-left, h2 {
+    color: #e5e7eb;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* set signup right container properties */
+.signup-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* set size of placeholder image */
+.signup-img, img {
+    height: 125px;
+    width: 100px;
+}
+
+/* container for pics with captions */
+.pic-caption-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+/* div for image */
+.pic-actual {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+/* div for caption under image */
+.caption-actual {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+
+
+/* conrtainer for quote section */
+.section-quote {
+    display: flex;sti
+    align-items: center;
+    justify-content: center;
+}
+
+/* div for quote in section */
+.quote-container {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* formatting for actual quote */
+.quote-container, h3 {
+    color: #1f2937;
+font-weight: 30px;
+font-style: italic;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+/* formatting for credit on quote */
+.quote-container, h6 {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+color: #1f2937;
+}
+
+/* container for call to action section */
+.section-call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* container for the blue section in call to action */
+.call-to-action-container {
+    background-color: rgb(136, 136, 251);
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+/* text for call to action text container */
+.call-to-action-container-text {
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* button in call to action section */
+.call-to-action-button {
+    width: 30%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+
+/* large text in call to action */
+.call-to-action-container-text, h7 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+/* small text in call to action */
+.call-to-action-container-text, h8 {
+    color: white;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+text-align: center;}
+
+
+/* container for footer section */
+.section-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.footer-text {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: row;
+}
+
+
+.footer-text, h5 {
+font-weight: 12px;
+color: white;
+}
+
+
